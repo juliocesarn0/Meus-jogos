@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus jogos favoritos</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Meus Jogos</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#favorite-game">Jogo favorito</a>
+            </li>
+            <li>
+              <a href="#more-games">Mais jogos</a>
+            </li>
+            <li>
+              <a href="#other">Outros</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="favorite-game">
+      <div class="container">
+        <img
+          class="start-game"
+          src="./images/Thelastofus.jpg"
+          alt="Capa the last of us"
+        />
+        <div>
+          <h2>Meu jogo favorito</h2>
+          <h3>resumo</h3>
+          <p>
+            The Last of Us é uma franquia de jogos eletrônicos de ação-aventura
+            e survival horror exclusiva da PlayStation, criada por Neil
+            Druckmann. A franquia é situada em um mundo pós-apocalíptico, com
+            seres humanos hostis e criaturas canibais infectadas por uma mutação
+            do fungo cordyceps.
+          </p>
+          <h3>plataformas</h3>
+
+          <ul class="platform-list">
+            <li><img src="./images/playstation.png" alt="Playstation" /></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="more-games">
+      <div class="container">
+        <div class="more-games">
+          <h1>Mais Jogos</h1>
+          <ul class="games-list">
+            <li>
+              <img src="images/bioshock.jpg" alt="Capa do bioshock" />
+            </li>
+            <li>
+              <img src="images/cs2.jpg" alt="Capa do counter strike 2" />
+            </li>
+            <li>
+              <img src="images/thewitcher.png" alt="Capa do the witcher" />
+            </li>
+            <li>
+              <img src="images/re4.jpg" alt="Capa do resident evil 4" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="other">
+      <div class="container">
+        <h2>Outros</h2>
+        <div class="add-games">
+          <div>
+            <h3>Adicionar Jogo</h3>
+            <form action="">
+              <input type="text" name="nome" placeholder="Seu nome" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Seu E-mail"
+                required
+              />
+              <input type="tel" name="telefone" placeholder="Seu telefone" />
+              <input type="text" name="jogo" placeholder="Seu Jogo" required />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Seu resumo"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Minhas redes sociais</h3>
+            <div>
+              <ul class="social-links">
+                <li>
+                  <a href="#" title="Me siga no Instagram">
+                    <img src="./images/instagram.png" alt="logo do instagram" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Me siga no Facebook">
+                    <img src="./images/facebook.png" alt="logo do facebook" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Meu canal no youtube">
+                    <img src="./images/youtube.png" alt="logo do youtube" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; Julio Navarro - todos direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
